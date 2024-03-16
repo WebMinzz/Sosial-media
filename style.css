@@ -1,0 +1,82 @@
+* {
+    font-family: sans-serif;
+}
+
+:root {
+    --whatsapp-color: #33ff33;
+    --tiktok-color: #1f1f1f;
+    --git-color: #000000;
+    --discord-color: #5865F2;
+}
+
+.tombol {
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.tombol-wa {
+    border: 2px solid var(--whatsapp-color);
+    color: var(--whatsapp-color);
+}
+
+.tombol-wa:hover {
+    background-color: var(--whatsapp-color);
+    color: aliceblue;
+    transition: 0.8s ease;
+}
+.tombol-tk {
+    border: 2px solid var(--tiktok-color);
+    color: var(--tiktok-color);
+}
+
+.tombol-tk:hover {
+    background-color: var(--tiktok-color);
+    color: aliceblue;
+    transition: 0.8s ease;
+}
+.tombol-git {
+    border: 2px solid var(--git-color);
+    color: var(--git-color);
+}
+
+.tombol-git:hover {
+    background-color: var(--git-color);
+    color: aliceblue;
+    transition: 0.8s ease;
+}
+.tombol-dis {
+    border: 2px solid var(--discord-color);
+    color: var(--discord-color);
+}
+
+.tombol-dis:hover {
+    background-color: var(--discord-color);
+    color: aliceblue;
+    transition: 0.8s ease;
+}
+
+.tombol-ig {
+    animation: changeColor 3s infinite;
+}
+
+.tombol-ig:hover {
+    /* animation-play-state: paused; */
+    background-image: linear-gradient(to right, #515bd4, #8134af, #dd2a7b, #dd2a7b, #dd2a7b,  #f58529,#feda77 );
+}
+
+
+@keyframes changeColor {
+    0% { border: 2px solid #515bd4; }
+    25% { border: 2px solid #feda77; }
+    50% { border: 2px solid #8134af; }
+    75% { border: 2px solid #f58529; }
+    100% { border: 2px solid #dd2a7b; }
+    0% { color:#515bd4; }
+    25% { color:#feda77; }
+    50% { color:#8134af; }
+    75% { color:#f58529; }
+    100% { color:#dd2a7b; }
+}
