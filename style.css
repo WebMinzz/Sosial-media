@@ -7,6 +7,7 @@
     --tiktok-color: #1f1f1f;
     --git-color: #000000;
     --discord-color: #5865F2;
+    --gmail-color: #f03f3f;
 }
 
 .tombol {
@@ -57,6 +58,18 @@
     color: aliceblue;
     transition: 0.8s ease;
 }
+.tombol-gm {
+    border: 2px solid var(--gmail-color);
+    color: var(--gmail-color);
+}
+
+.tombol-gm:hover {
+    background-color: var(--gmail-color);
+    color: aliceblue;
+    transition: 0.8s ease;
+}
+
+
 
 .tombol-ig {
     animation: changeColor 3s infinite;
