@@ -8,6 +8,7 @@
     --git-color: #000000;
     --discord-color: #5865F2;
     --gmail-color: #f03f3f;
+    --spt-color: #1db954;
 }
 
 .tombol {
@@ -26,6 +27,16 @@
 .tombol-wa:hover {
     background-color: var(--whatsapp-color);
     color: aliceblue;
+    transition: 0.8s ease;
+}
+.tombol-spt {
+    border: 2px solid var(--spt-color);
+    color: var(--spt-color);
+}
+
+.tombol-spt:hover {
+    background-color: var(--spt-color);
+    color: #000000;
     transition: 0.8s ease;
 }
 .tombol-tk {
