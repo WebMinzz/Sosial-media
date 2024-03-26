@@ -1,5 +1,7 @@
 * {
-    font-family: sans-serif;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 :root {
@@ -7,8 +9,9 @@
     --tiktok-color: #1f1f1f;
     --git-color: #000000;
     --discord-color: #5865F2;
-    --gmail-color: #f03f3f;
+    --yt-color: #f03f3f;
     --spt-color: #1db954;
+    --fb-color: #3b5998;
 }
 
 .tombol {
@@ -26,6 +29,16 @@
 
 .tombol-wa:hover {
     background-color: var(--whatsapp-color);
+    color: aliceblue;
+    transition: 0.8s ease;
+}
+.tombol-fb {
+    border: 2px solid var(--fb-color);
+    color: var(--fb-color);
+}
+
+.tombol-fb:hover {
+    background-color: var(--fb-color);
     color: aliceblue;
     transition: 0.8s ease;
 }
@@ -69,13 +82,13 @@
     color: aliceblue;
     transition: 0.8s ease;
 }
-.tombol-gm {
-    border: 2px solid var(--gmail-color);
-    color: var(--gmail-color);
+.tombol-yt {
+    border: 2px solid var(--yt-color);
+    color: var(--yt-color);
 }
 
-.tombol-gm:hover {
-    background-color: var(--gmail-color);
+.tombol-yt:hover {
+    background-color: var(--yt-color);
     color: aliceblue;
     transition: 0.8s ease;
 }
